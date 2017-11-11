@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="css/interactive_web.css">
+
+    <title>Assignment 1</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<header>
+
+    <nav class="tab">
+        <a class="logo"><img src="img/f1_logo.svg"></a>
+		<button data-target="Standings">Standings</button>
+        <button data-target="Teams">Teams</button>
+        <button data-target="previousRace">Latest Result</button>
+        <button data-target="Game">Play Game</button>
+        <div class="themeDrpDiv">
+            <button class="themedropbtn">Change Theme</button>
+            <div id="themeDropdown" class="theme-dropdown-content">
+                <a data-target="Ferrari">Ferrari</a>
+                <a data-target="Mercedes">Mercedes</a>
+                <a data-target="RedBull">Red Bull</a>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <h1>Welcome To Formula One</h1>
+        <h3>All Stats, News and Standings</h3>
+    </div>
+
+    <a class="tooltip" title="Click here to scroll Down"><img src="img/arrow-button.png"
+                                                              class="arrow-button bounce"></a>
+
+</header>
+
+<body>
+
+<section id="Standings" class="panel">
+    <button class="accordion">Standings<span><img src="img/accordian-sym.png" class="accordian-symbol"></span></button>
+
+    <div>
+        <nav class="tab">
+            <button class="standings-tab active">Constructor
+            </button>
+            <button class="standings-tab">Driver</button>
+        </nav>
+
+        <div id="Constructor" style="display: block">
+            <h3>Constructor Standings</h3>
+            <table width="700px" id="constructorTable">
+                <tr>
+                    <th>Position</th>
+                    <th>Driver</th>
+                    <th>Points</th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="Driver" style="display: none">
+            <h3>Driver Standings</h3>
+            <table width="700px" id="driverTable">
+                <tr>
+                    <th>Position</th>
+                    <th>Driver</th>
+                    <th>Points</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</section>
+
+<section id="Teams" class="panel">
+    <button class="accordion">Teams<span><img src="img/accordian-sym.png" class="accordian-symbol"></span></button>
+
+    <div id="teamStats">
+        <nav class="tab">
+            <button class="team-link active" data-target="mercedes">Mercedes</button>
+            <button class="team-link" data-target="ferrari">Ferrari</button>
+            <button class="team-link" data-target="bull">Red Bull</button>
+            <button class="team-link" data-target="force">Force India</button>
+            <button class="team-link" data-target="williams">Williams</button>
+            <button class="team-link" data-target="rosso">Toro Rosso</button>
+            <button class="team-link" data-target="haas">Haas</button>
+            <button class="team-link" data-target="renault">Renault</button>
+            <button class="team-link" data-target="mclaren">McLaren</button>
+            <button class="team-link" data-target="sauber">Sauber</button>
+        </nav>
+
+    </div>
+
+</section>
+
+<section id="previousRace" class="panel">
+    <button class="accordion">Previous Race<span><img src="img/accordian-sym.png" class="accordian-symbol"></span>
+    </button>
+
+    <div>
+        <h2>GRAN PREMIO DE MÉXICO 2017</h2>
+        <div>
+            <h3>Highlights</h3>
+            <div class="video-control-buttons">
+                <button>Mute</button>
+                <button>Normal Speed</button>
+                <button>x2 Faster</button>
+                <button>x4 Faster</button>
+                <button>Slow Motion</button>
+            </div>
+            <video width="480" height="360" controls>
+                <source src="mexico_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div>
+            <h2>Stats</h2>
+            <ul id="stats">
+
+            </ul>
+        </div>
+    </div>
+
+</section>
+
+<section id="Game">
+    <button class="accordion">Play Game<span><img src="img/accordian-sym.png" class="accordian-symbol"></span></button>
+
+    <div>
+        <h1>Use the Buttons Below to park the car the in space</h1>
+        <div class="control-buttons">
+            <button class="move-car-button">Left</button>
+            <button class="move-car-button">Right</button>
+            <button class="move-car-button">Down</button>
+            <button class="move-car-button">Up</button>
+            <button id="resetButton">Reset</button>
+        </div>
+
+        <div class="game-map">
+
+            <img id="GameCar" src="img/game_car.png">
+
+            <div id="parkingSpace">
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+</body>
+
+<footer>
+    <h4>Created by Kyle Higginson</h4>
+    <h4>Interactive Web Computing: Assignment 1</h4>
+</footer>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/interactive_web.js"></script>
+<script src="js/loadData.js"></script>
+<script src="js/tabs.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/game.js"></script>
+<script src="js/change-theme.js"></script>
+<script src="js/video.js"></script>
+
+</html>

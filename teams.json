@@ -1,0 +1,212 @@
+[
+  {
+    "Key": "mercedes",
+    "Name": "Mercedes-AMG Petronas Motorsport",
+    "Nationality": "German",
+    "Chief": "Totto Wolf",
+    "Profile": "Mercedes' revival of their Formula One tradition through the creation of a works team for the 2010 championship was also the platform for a meteoric rise up the Grand Prix order. Already the team had generated huge excitement by securing the sensational return of Michael Schumacher, but headlines began to follow on track: three podiums came in their debut season, all via Nico Rosberg - who then claimed a breakthrough pole/victory double at China in 2012.",
+    "Drivers": [
+      {
+        "Name": "Lewis Hamilton",
+        "Nationality": "British",
+        "Wins": "53",
+        "Podiums": "70"
+      },
+      {
+        "Name": "Valterri Botas",
+        "Nationality": "Finnish",
+        "Wins": "3",
+        "Podiums": "10"
+      }
+    ]
+  },
+  {
+    "Key": "ferrari",
+    "Name": "Scuderia Ferrari",
+    "Nationality": "Italian",
+    "Chief": "Maurizio Arrivabene",
+    "Profile": "For many, Ferrari and Formula One racing have become inseparable. The only team to have competed in every season in F1 history, the Prancing Horse has grown from the humble dream of founder Enzo Ferrari to become one of the most iconic and recognised brands in the world. Success came quickly through the likes of Alberto Ascari and John Surtees, and continued - in amongst leaner times - with Niki Lauda in the 1970s and then Michael Schumacher in the 2000s",
+    "Drivers": [
+      {
+        "Name": "Sebastian Vettel",
+        "Nationality": "German",
+        "Wins": "50",
+        "Podiums": "60"
+      },
+      {
+        "Name": "Kimmi Raikonen",
+        "Nationality": "Finnish",
+        "Wins": "30",
+        "Podiums": "46"
+      }
+    ]
+  },
+  {
+    "Key": "bull",
+    "Name": "Red Bull Racing",
+    "Nationality": "Austrian",
+    "Chief": "Christian Horner",
+    "Profile": "Red Bull had already been a long-term sponsor in Formula One racing before formally entering as a works team following the acquisition of Jaguar in November 2004. The scale of success that followed over the next decade has been staggering. A first podium arrived in 2006 courtesy of David Coulthard, but it was in 2009 that the team really hit their stride, claiming six victories en route to second in the constructors' standings. ",
+    "Drivers": [
+      {
+        "Name": "Daniel Riccardo",
+        "Nationality": "Austrailian",
+        "Wins": "10",
+        "Podiums": "18"
+      },
+      {
+        "Name": "Max Verstappen",
+        "Nationality": "Dutch",
+        "Wins": "5",
+        "Podiums": "12"
+      }
+    ]
+  },
+    {
+      "Key": "force",
+    "Name": "Sahara Force India F1 Team",
+    "Nationality": "Indian",
+    "Chief": "Vijay Mallya",
+    "Profile": "Having won races under former guise Jordan, the Silverstone-based team went through a decidedly fallow period - and several changes of ownership - before being bought by the charismatic Vijay Mallya in 2007. Rebranded Force India, the team steadily established themselves as a midfield force, and today are renowned for their ability to consistently punch above their weight...",
+    "Drivers": [
+      {
+        "Name": "Sergio Perez",
+        "Nationality": "Mexican",
+        "Wins": "0",
+        "Podiums": "7"
+      },
+      {
+        "Name": "Estaban Occon",
+        "Nationality": "French",
+        "Wins": "0",
+        "Podiums": "0"
+      }
+    ]
+  },
+    {
+      "Key": "williams",
+    "Name": "Williams Martini Racing",
+    "Nationality": "British",
+    "Chief": "Frank Williams",
+    "Profile": "Driven on by the brilliance and passion of Sir Frank Williams, Williams grew from humble beginnings to become a Formula One behemoth, unrivalled by all except Ferrari and McLaren in terms of enduring success. Over the past four decades the team has racked up Grand Prix wins and championship glory, and in the process nurtured some of the greatest talents in the sport, both in and out the cockpit...",
+    "Drivers": [
+      {
+        "Name": "Felipe Massa",
+        "Nationality": "Brazilian",
+        "Wins": "11",
+        "Podiums": "41"
+      },
+      {
+        "Name": "Lance Stroll",
+        "Nationality": "Canadian",
+        "Wins": "0",
+        "Podiums": "1"
+      }
+    ]
+  },
+    {
+      "Key": "rosso",
+    "Name": "Scuderia Toro Rosso",
+    "Nationality": "Italian",
+    "Chief": "Franz Tost",
+    "Profile": "Formed from the ashes of the plucky Minardi team, Toro Rosso were established in 2006 as a squad in which young drivers from Red Bull’s prodigious talent pool could cut their teeth in Grand Prix racing. Sebastian Vettel gave validity to the team’s approach almost immediately, delivering a fairy-tale win, before going on to enjoy world championship success with parent team Red Bull Racing. Today the ethos of nurturing talent still holds true, though the Italian squad are no longer simply a ‘B team’ but a constructor in their own right... ",
+    "Drivers": [
+      {
+        "Name": "Pierre Gasly",
+        "Nationality": "French",
+        "Wins": "0",
+        "Podiums": "0"
+      },
+      {
+        "Name": "Carlos Sainz",
+        "Nationality": "Spanish",
+        "Wins": "0",
+        "Podiums": "0"
+      }
+    ]
+  },
+    {
+      "Key": "haas",
+    "Name": "Haas F1 Team",
+    "Nationality": "American",
+    "Chief": "Guenther Steiner",
+    "Profile": "The brand-new Haas team made their highly impressive debut in the 2016 FIA Formula One World Championship, and in the process became the first all-American-led F1 team in three decades. Founded by industrialist Gene Haas, they are based in the United States on the same Kannapolis, North Carolina facility as his championship-winning NASCAR Sprint Cup Series team, Stewart-Haas Racing. The team also have a UK base in Marussia’s former factory in Banbury. Power for the team’s cars comes from Ferrari, with whom Haas have a multi-year technical agreement. This also sees the Scuderia provide them with transmission and various other parts, as well as support.",
+    "Drivers": [
+      {
+        "Name": "Romain Grosjean",
+        "Nationality": "French",
+        "Wins": "0",
+        "Podiums": "10"
+      },
+      {
+        "Name": "Kevin Magnussen",
+        "Nationality": "Danish",
+        "Wins": "0",
+        "Podiums": "1"
+      }
+    ]
+  },
+    {
+      "Key": "renault",
+    "Name": "Renault Sport F1 Team",
+    "Nationality": "French",
+    "Chief": "Cyril Abiteboul",
+    "Profile": "The 2016 season saw Renault return as an F1 works entry following their takeover of the Lotus team - the Enstone-based squad which the French automaker previously ran from 2002 to 2011. It wasn't just the team name that changed: Mercedes engines inevitably made way for Renault’s eponymous power unit, as the new management embarked on a long-term restructuring programme aimed at returning the famous marque to race-winning glory…",
+    "Drivers": [
+      {
+        "Name": "Nico Hulkenburg",
+        "Nationality": "German",
+        "Wins": "0",
+        "Podiums": "0"
+      },
+      {
+        "Name": "Jolyon Palmer",
+        "Nationality": "British",
+        "Wins": "0",
+        "Podiums": "0"
+      }
+    ]
+  },
+    {
+      "Key": "mclaren",
+    "Name": "McLaren Honda",
+    "Nationality": "British",
+    "Chief": "Eric Boullier",
+    "Profile": "Since entering the sport in 1966 under the guidance and restless endeavour of eponymous founder Bruce, McLaren's success has been nothing short of breathtaking. Five glittering decades have yielded countless victories, pole positions and podiums, not to mention eight constructors' championships. What's more, some of the sport's greatest drivers made their names with the team, including Emerson Fittipaldi, Ayrton Senna, Mika Hakkinen and Lewis Hamilton...",
+    "Drivers": [
+      {
+        "Name": "Fernando Alonso",
+        "Nationality": "Spanish",
+        "Wins": "32",
+        "Podiums": "97"
+      },
+      {
+        "Name": "Stoffel Vandoorne",
+        "Nationality": "Belgium",
+        "Wins": "0",
+        "Podiums": "0"
+      }
+    ]
+  },
+    {
+      "Key": "sauber",
+    "Name": "Sauber F1 Team",
+    "Nationality": "Swiss",
+    "Chief": "Frédéric Vasseur",
+    "Profile": "Having enjoyed considerable success in world sportscars, where he helped nurture the emerging talents of future F1 stars Michael Schumacher and Heinz-Harald Frentzen, Peter Sauber guided his eponymous squad into F1 racing in 1993. The Swiss team has since established itself as a mainstay of the F1 grid, becoming race winners under BMW’s brief ownership, and developing a well-earned reputation not only for producing competitive cars, but also for developing young drivers.",
+    "Drivers": [
+      {
+        "Name": "Marcus Erricson",
+        "Nationality": "Swedish",
+        "Wins": "0",
+        "Podiums": "0"
+      },
+      {
+        "Name": "Pascal Wehelein",
+        "Nationality": "German",
+        "Wins": "0",
+        "Podiums": "0"
+      }
+    ]
+  }
+]
